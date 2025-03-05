@@ -10,7 +10,7 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     char codigo1, codigo2;
-    char nome1[20], nome2[20];
+    char nome1, nome2;
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
@@ -34,7 +34,7 @@ int main() {
     scanf("%d", &area1);
 
     printf("Digite o PIB da primeira carta: ");
-    scanf("%d", &pib1);
+    scanf("%f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos da primeira carta: ");
     scanf("%d", &pontos_turisticos1);
