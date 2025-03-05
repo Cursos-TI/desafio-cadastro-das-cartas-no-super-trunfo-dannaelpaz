@@ -64,7 +64,7 @@ int main() {
 
     // Exibição da primeira carta
     printf("Carta 1:\n");
-    printf("Nome: %s\n", codigo1);
+    printf("Código: %s\n", codigo1);
     printf("Nome: %s\n", nome1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f\n", area1);
@@ -73,7 +73,7 @@ int main() {
     
     // Exibição da segunda carta
     printf("Carta 2:\n");
-    printf("Nome: %s\n", codigo2);
+    printf("Código : %s\n", codigo2);
     printf("Nome: %s\n", nome2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f\n", area2);
